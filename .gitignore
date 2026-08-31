@@ -136,11 +136,10 @@ celerybeat.pid
 # Environments
 .env
 .venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+venv
+ENV
+env.bak
+venv.bak
 
 # Spyder project settings
 .spyderproject
@@ -182,6 +181,12 @@ poetry.toml
 
 # LSP config files
 pyrightconfig.json
+
+### Virtual Environment ###
+Include/
+Scripts/
+pyvenv.cfg
+lib/
 
 # End of https://www.toptal.com/developers/gitignore/api/python,database
 
